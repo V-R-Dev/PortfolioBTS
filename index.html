@@ -1,0 +1,189 @@
+<!DOCTYPE html> <!--"!" permet de générer automatiquement la structure de la page html-->
+    <html lang="fr">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--à vérifier quant à son importance.-->
+            <link rel="stylesheet" href="PagesCSS/StyleIndex.css">
+            <title>Accueil</title>
+        </head>
+
+        <body>
+            <header id="MenuPrincipale">
+                <div id="En-tete">
+                    <p></p>
+                </div>  
+            </header>
+
+            <nav id="MesBouttons">
+                <div id="BouttonGauche">
+                    <a href="PagesHTMLetPHP/Formation.html" class="LeftLink"><img src="images/graduation-hat.png"  alt="Ma Formation" class="LeftImage"></a>
+                </div>    
+
+                <div id="BouttonDroite">
+                    <a href="PagesHTMLetPHP/Informations.html" class="RightLink"><img src="images/case-study.png" class="RightImage"></a>
+                </div>
+            </nav>
+
+            <div id="Presentation">
+                <h2 class="titre">Ma Présentation :</h2>
+                <br>
+                <p class="texte">Je m'appelle Victor Ramos, je suis un étudiant de 20 ans en 2eme année de BTS SIO (Services Informatiques aux Organisations) et je suis en cours d'acquissition des compétences vu par les étudiant en section SLAM (Solution Logiciel Applications Métier), j'ai donc durant mes deux années eu le temps détudier divers langages de programmations tel que Java, Python, C#, javascript, NodeJS, des IDEs parmi eux Visual Studios et Visual Studios Code, Sharpdevelopp mais également Android Studios, mais aussi des domaines importants de la cybersécuriter. </p>
+            </div>
+
+            <div id="Curiculum-Vitae">
+                <h2>Mon CV :</h2>
+                <br>
+                <a href="Documents/MonCV.pdf" download><img src="images/CV.svg" class="CV"></a>
+                <br><br>
+                <strong><p class="texte">Cliquez sur le PDF pour télécharger mon CV</p></strong>
+            </div>
+
+            <div id="InfosComplementaire">
+                <h2>Compléments d'informations :</h2>
+                <br>
+                <p class="texte">Etant un étudiant, j'ai su tiré parti des enseignements qui on été fait durant ma formation, par conséquent je suis une personne autonome, mais je suis aussi quelqu'un de persévérant et qui ne se décourage pas, je m'adapte aux situations auxquelles je fais face et je cherche à m'améliorer dans de nombreux domaines. J'ai également su faire preuve de curiosité pour apprendre ou consolider de nouvelles notions sur les périodes en dehors de mes cours refletant ma volonté d'être autodidacte.</p>
+
+                <img src="images/perseverant.jpg" class="qualite">  
+                
+                <img src="images/multitache.jpg" class="qualite">
+                
+                <img src="images/autonome.jpg" class="qualite">
+                
+                <img src="images/curieux.jpg" class="qualite">
+                
+                <img src="images/autodidacte.jpg" class="qualite">
+            </div>
+
+            <div id="OutilsEtCompetences">
+                <h2>Mes outils et compétences :</h2>
+                <br>
+                <p class="texte">Cliquez sur les images pour plus de détails</p>
+                
+                <div class="LogoModal" onclick="Modal1()">
+                    <img src="images/PixLogo.png" class="Langage"> <!--<p class="texte">Pix : Certification reçu au cours de l'année attestant de mes acquis en matière de cybersécurité.</p>-->
+                </div>    
+                    <div class="Modal1">
+                        <div class="FermerMenu" onclick="Modal1()">
+                            <img src="images/Croix.jpg" class="Cross">
+                        </div>
+                        <p class="texteModal">Pix : Certification reçu au cours de l'année attestant de mes acquis en matière de cybersécurité.</p>
+                        <br><br>
+                        <a href="Documents/CertificatPix.pdf" download="Documents/CertificatPix.pdf" class="Telechargement"><img src="images/PDF-LogoDownload.jpg" class="LogoTelechargement"></a>
+                        <br><br>
+                        <img src="images/Pix-Screen.png" class="PixScreenShoot">
+                    </div>
+
+
+                <div class="LogoModal" onclick="Modal2()">
+                    <img src="images/JavaLogo.png" class="Langage"> <!--<p class="texte">Java : Application créer en début de première année avec ce langage et developpement d'application sous Android Studios.</p>-->
+                </div>
+                    <div class="Modal2">
+                        <div class="FermerMenu" onclick="Modal2()">
+                            <img src="images/Croix.jpg" class="Cross">
+                        </div>
+                        <p class="texteModal">Java est un langage de programmation que j'ai étudié durant deux années à travers différents projets.</p>
+                        <br><br>
+                        <img src="" class="screen">
+                    </div>
+
+
+                <div class="LogoModal" onclick="Modal3()">
+                    <img src="images/PythonLogo.png" class="Langage"> <!--<p class="texte">Python : Apprentissage de python en cours de mathématique, CFF passer en cours de première années pour valider mes acquis.</p>-->
+                </div>
+                <div class="Modal3">
+                        <div class="FermerMenu" onclick="Modal3()">
+                            <img src="images/Croix.jpg" class="Cross">
+                        </div>
+                        <p class="texteModal">Python est un langage que où j'ai eu l'ocassion de pratiquer durant mes cours de mathématiques, afin de me familiariser avec lui.</p>
+                        <br><br>
+                        <img src="images/ScreenShootPython.png" class="PythonScreen">
+                    </div>
+
+
+                <div class="LogoModal" onclick="Modal4()">    
+                    <img src="images/CsharpLogo.png" class="Langage"> <!--<p class="texte">C# : Initiation au langage à travers différent exercice pour comprendre son fonctionnement sur les deux années.</p>-->
+                </div>
+                    <div class="Modal4">
+                        <div class="FermerMenu" onclick="Modal4()">
+                            <img src="images/Croix.jpg" class="Cross">
+                        </div>
+                        <p class="texteModal">C# est un langage que j'ai pu mettre en pratique au cours de plusieurs travaux pratique dans mes matières de spécialtés afin de découvrir et de comprendre ce langage de programmation.</p>
+                        <br><br>
+                        <img src="images/CsharpScreen.png" class="CsharpScreen">
+                    </div>
+
+
+                <div class="LogoModal" onclick="Modal5()">       
+                    <img src="images/PHPLogo.png" class="Langage"><!--<p class="texte">PHP ; Apprentisage de l'utilisation de PHP grâce aux Travaux Pratique réaliser en cours, découverte approfondis du langage durant mes stage sur les deux ans.</p>-->
+                </div>
+                    <div class="Modal5">
+                        <div class="FermerMenu" onclick="Modal5()">
+                            <img src="images/Croix.jpg" class="Cross">
+                        </div>
+                        <p class="texteModal">PHP est un langage que j'ai pu découvrir sur mes deux années d'études dans le BTS mais également dans le cadre de mon stage afin de concevoir un site dynamique.</p>
+                        <br><br>
+                        <img src="images/ScreenShootPHP1.png" class="PHPScreenShoot1">
+                        <img src="images/ScreenShootPHP2.png" class="PHPScreenShoot2">
+                    </div>
+
+
+                <div class="LogoModal" onclick="Modal6()">    
+                    <img src="images/JavaScriptLogo.png" class="Langage"> <!--<p class="texte">Javascript : Découverte de Javascript durant les Travaux pratique en première années et utilisation plus approfondis du langage durant ma période de stage.</p>-->
+                </div>
+                    <div class="Modal6">
+                        <div class="FermerMenu" onclick="Modal6()">
+                            <img src="images/Croix.jpg" class="Cross">
+                        </div>
+                        <p class="texteModal">Les deux années d'études que j'ai effectué durant mon BTS m'on permit de découvrir le Javascript mais également sa façon de fonctionner.</p>
+                        <br><br>
+                        <img src="" class="screen"> <!--Mettre un screen du code Javascript pour faire fonctionner les modals de la page quand le portfolio est terminé.-->
+                    </div>
+
+                    
+                <div class="LogoModal" onclick="Modal7()">        
+                    <img src="images/NodeJSLogo.png" class="Langage"><!--<p class="texte">NodeJS : Prise en main du langage de programmation, découverte de ses similitudes et de ses différences avec le Javascript traditionnel, création de plusieurs projets grâce à lui.</p>-->
+                </div>
+                    <div class="Modal7">
+                        <div class="FermerMenu" onclick="Modal7()">
+                            <img src="images/Croix.jpg" class="Cross">
+                        </div>
+                        <p class="texteModal">J'ai eu l'ocassion de découvrir et de mettre en pratique mes connaissances sur NodeJS durant ma deuxième années durant des TP mais également dans le but de concevoir une application destiné à mes épreuves de BTS.</p>
+                        <br><br>
+                        <img src="images/ScreenShootNodeJS.png" class="NodeJSScreenShoot">
+                    </div>
+            </div>
+            
+            <div id="Footer">
+                <p class="CopyRight">CopyRights © 2022-2023 [Nom Auto-Entreprise] All rights reserved.</p>
+                <a href="PagesHTMLetPHP/MentionsLegales.html"><p class="MentionsLegales"><i>Les mentions légales du site</i></p></a>
+            </div>
+
+            <div id="Social-Media">
+                <ul id="LogoContact">
+                    <li class="Mon-Logo-1" ><button id="Bouton-Websites" onclick="Internet()"><img src="images/loupe.svg" class="Mes-Sites" alt="Mes sites internet"></button></li>
+                    <li class="Mon-Logo-2" ><img src="" class="Youtube"></li>
+                    <li class="Mon-Logo-3" ><img src="" class="Mon-Entreprise"></li>
+                    <li class="Mon-Logo-4" ><img src="" class="Autres"></li>
+                </ul>
+
+                <div id="Website">
+                    <ul id="Logowebsite">
+                        <!--<li class="Logo-Site-1"><a href="Nucle-Art.html"><img src="images/internet.svg"></a></li>-->
+                        <li class="Logo-Site-2"></li>
+                        <li class="Logo-Site-3"></li>
+                        <li class="Logo-Site-4"></li>
+                        <li class="Logo-Site-5"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Background" onclick="Modal1()"></div>
+            <div class="Background2" onclick="Modal2()"></div>
+            <div class="Background3" onclick="Modal3()"></div>
+            <div class="Background4" onclick="Modal4()"></div>
+            <div class="Background5" onclick="Modal5()"></div>
+            <div class="Background6" onclick="Modal6()"></div>
+            <div class="Background6" onclick="Modal7()"></div>
+
+            <script src="PagesJavaScript/FonctionnaliteIndex.js" type="text/javascript"></script> 
+        </body>
+    </html>

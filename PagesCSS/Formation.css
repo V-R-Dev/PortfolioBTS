@@ -1,0 +1,278 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(80, 80, 80);
+}
+
+#MenuPrincipale {
+    width: auto;
+    height: 75px;
+}
+
+#MesBouttons {
+    width: auto;
+    height: 110px;;
+    margin-bottom: 10px;
+}
+
+#BouttonGauche {
+    float: left;
+    height : 95;
+    width : 110;
+    border-top : 55px solid transparent;
+    border-bottom : 55px solid transparent;
+    border-left : 95px solid rgb(159, 159, 159);
+}
+
+.LeftImage, .LeftLink {
+    left: 5px;
+    margin-top: -10px;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+}
+
+#En-tete {
+    width: auto;
+    position: relative;
+    overflow: auto;
+    height: 70px;
+    border-bottom: 5px solid; /*Taille de la bordure*/
+    border-color:aquamarine; /*Couleur de la bordure*/
+    background-color: silver; /*Couleur de la div*/
+}
+
+#FormationPresentation {
+    width: 100%;
+    height: 285px;
+    margin-bottom: 45px;
+    background-image: url("../images/presentation.png");
+    background-position: 50%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+
+.texte {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #585858;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 14px;
+    font-size: 22px;
+}
+
+#ImageContainer {
+    width:100%;
+    display: inline-block;
+    text-align: center;
+    justify-content: space-between;
+}
+.SoftwareImg {
+    height: 275px;
+    padding-right: 20px;
+}
+
+.ServerImg {
+    padding-left: 20px;
+}
+#AnneeBTS {
+    display: inline-block;
+    width: 100%;
+    height: 425px;
+    text-align: center;
+}
+#BTSSIO1 {
+    width: 50%;
+    height: 285px;
+    margin-bottom: 45px;
+    position: absolute;
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+.titre {
+    position: relative;
+    top: 40px;
+}
+.TexteAnnee {
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    width: 85%;
+    position: relative;
+    left: 50px;
+    bottom: -40px;
+}
+
+#BTSSIO2 {
+    width: 50%;
+    height: 285px;
+    margin-bottom: 45px;
+    position: absolute;
+    right: 0;
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+
+#Notions2 {
+    width: 100%;
+    height: 285px;
+    margin-bottom: 45px;
+    position: absolute;
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+
+.TexteNotion {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    width: 85%;
+    position: relative;
+    bottom: -40px;
+}
+#EpreuvesPresentation {
+    width: 100%;
+    height: 500px;
+}
+#EpreuvesIntroduction {
+    width: 100%;
+    height: 285px;
+    margin-bottom: 45px;
+    background-image: url("../images/presentation.png");
+    background-position: 50%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+#Specialisation {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 25px;
+}
+#SLAM {
+    width: 50%;
+    height: 285px;
+    margin-bottom: 45px;
+    position: absolute;
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+#SISR {
+    width: 50%;
+    height: 285px;
+    margin-bottom: 45px;
+    position: absolute;
+    right: 0;
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+.TexteSpe {
+    position: relative;
+    top: 35px;
+    width: 85%;
+    left: 50px;
+    font-size: 14px;
+}
+
+#Epreuves1 {
+    float: left;
+    width: 50%;
+    height: 300px;
+    position: relative;
+}
+#EpreuveGen1 {
+    float: left;
+    width: 100%;
+    height: 285px;
+    margin-bottom: 45px;
+    position: absolute;
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+#Epreuves2 {
+    float: right;
+    width: 50%;
+    height: 525px;
+    position: relative;
+}
+#EpreuveGen2 {
+    float: right;
+    width: 100%;
+    height: 285px;
+    position: relative;
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+
+#EpreuveSpe {
+    float: right;
+    width: 100%;
+    height: 285px;
+    position: relative;
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+.titreEpreuve {
+    position: relative;
+    top: 35px;
+}
+.ListEpreuvesGen2, .ListEpreuveSpe2 {
+    font-size: 13px;
+    width: 80%;
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+}
